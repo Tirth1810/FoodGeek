@@ -1,0 +1,97 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="Registration"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:textAllCaps="true"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_below="@id/textView16"
+        android:id="@+id/tv_enterAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#000000"
+        android:text="Enter Account Name" />
+
+    <EditText
+        android:layout_below="@id/tv_enterAcc"
+        android:id="@+id/etRegAcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:textSize="30sp"
+        android:hint="User Account"
+        android:inputType="textPersonName"
+        android:textColorHint="#dddddd" />
+
+    <TextView
+        android:layout_below="@id/etRegAcc"
+        android:id="@+id/tv_enterPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#000000"
+        android:text="Enter your Password" />
+
+    <EditText
+        android:layout_below="@id/tv_enterPass"
+        android:id="@+id/etRegPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:textSize="30sp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#dddddd" />
+
+    <TextView
+        android:layout_below="@id/etRegPass"
+        android:id="@+id/tv_repeatPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#000000"
+        android:text="Repeat your Password" />
+
+    <EditText
+        android:layout_below="@id/tv_repeatPass"
+        android:id="@+id/etRegRepeatPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:textSize="30sp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#dddddd" />
+
+    <Button
+        android:layout_below="@id/etRegRepeatPass"
+        android:id="@+id/bRegSubmit"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="Submit" />
+
+</RelativeLayout>
